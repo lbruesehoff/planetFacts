@@ -1,4 +1,4 @@
-# Frontend Mentor - Planets fact site solution
+## Welcome! 👋
 
 This is a solution to the [Planets fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -68,7 +68,7 @@ In future development I would like to use React to help me build applications fa
 
 ## Author
 
-- Website - [Logan Bruesehoff](https://www.loganbruesehoff.live)
+- Website - [Logan Bruesehoff](http://www.loganbruesehoff.live/index.html)
 
 
 ## Acknowledgments
