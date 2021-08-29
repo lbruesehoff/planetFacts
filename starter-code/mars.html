@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./navbar/nav.css">
+  <link rel="stylesheet" href="./navbar/navPlanets.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Spartan:wght@300&display=swap" rel="stylesheet">
+  
+  <title>Planets fact site</title>
+</head>
+<body>
+
+  <div class="navigation">
+    <nav class="navbar">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo">The Planets</label>
+        <ul>
+          <li><a href="index.html" class="active"><span class="mercuryNav"></span>Mercury</a></li>
+          <li><a href="venus.html" class="active"><span class="venusNav"></span>Venus</a></li>
+          <li><a href="earth.html" class="active"><span class="earthNav"></span>Earth</a></li>
+          <li><a href="mars.html" class="active"><span class="marsNav"></span>Mars</a></li>
+          <li><a href="jupiter.html" class="active"><span class="jupiterNav"></span>Jupiter</a></li>
+          <li><a href="saturn.html" class="active"><span class="saturnNav"></span>Saturn</a></li>
+          <li><a href="uranus.html" class="active"><span class="uranusNav"></span>Uranus</a></li>
+          <li><a href="neptune.html" class="active"><span class="neptuneNav"></span>Neptune</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <!-- Mobile Content View -->
+
+  <div class="topnav">
+    <a class="marsMobile" tabindex="0" onclick="overview()">Overview</a>
+    <a class="marsMobile" tabindex="0" onclick="internal()">Surface</a>
+    <a class="marsMobile" tabindex="0" onclick="surface()">Structure</a>
+  </div>
+
+
+  
+  <div class="parent">
+    <img id="geo" class="geo" src="./assets/geology-mars.png" style="display:none;"/>
+    <div class="child">
+      <img src="./assets/planet-mars.svg" alt="Mars" class="planet" id="planetImg">
+    </div>
+    <div class="child">
+      <h1 class="title">Mars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+      <div class="ipadNav" id="ipadNav">
+        <p autofocus tabindex="0" class="marsOverview" onclick="overview()">01 Overview</p>
+        <p tabindex="0" class="marsOverview" onclick="internal()">02 Internal Structure</p>
+        <p tabindex="0" class="marsOverview" onclick="surface()">03 Surface Geology</p>
+      </div>
+
+        <!-- Overview Content Start -->
+        <p class="sum" id="mars">
+          Mars is the fourth planet from the Sun and the second-smallest planet 
+          in the Solar System, being larger than only Mercury. In English, Mars 
+          carries the name of the Roman god of war and is often referred to as 
+          the "Red Planet".
+        </p>
+
+        <p class="link" >
+          Source : <a class="link" id="link" href="https://en.wikipedia.org/wiki/Mars">Wikipedia</a>
+        </p>
+
+        <div class="content" id="content">
+          <p autofocus tabindex="0" class="marsOverview" onclick="overview()">01 Overview</p>
+          <p tabindex="0" class="marsOverview" onclick="internal()">02 Internal Structure</p>
+          <p tabindex="0" class="marsOverview"mercuryMobile" verview" onclick="surface()">03 Surface Geology</p>
+        </div>
+    </div>
+  </div>
+
+
+
+  <div class="facts" id="facts">
+    <p class="desc rot">Rotation Time   <br class="break"> <span class="number">1.03 Days  </span></p>
+    <p class="desc rev">Revolution Time <br class="break"> <span class="number">1.88 Years</span></p>
+    <p class="desc rad">Radius          <br class="break"> <span class="number">3,389.5 KM</span></p>
+    <p class="desc ave">Average Temp.   <br class="break"> <span class="number">-28°c    </span></p>
+  </div>
+  
+  <script src="./planetsJs/mars.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+@media (max-width: 500px){
+  .mercuryNav {
+    height: 30px;
+    width: 30px;
+    background-color: #419ebb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+  }
+  .venusNav {
+    height: 30px;
+    width: 30px;
+    background-color: #eda249;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+
+  }
+  .earthNav {
+    height: 30px;
+    width: 30px;
+    background-color: #6f2ed6;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+
+  }
+  .marsNav {
+    height: 30px;
+    width: 30px;
+    background-color: #d83a34;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+
+  }
+  .jupiterNav {
+    height: 30px;
+    width: 30px;
+    background-color: #eda249;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+
+  }
+  .saturnNav {
+    height: 30px;
+    width: 30px;
+    background-color: #eda249;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+
+  }
+  .uranusNav {
+    height: 30px;
+    width: 30px;
+    background-color: #1ec2a4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+    
+
+  }
+  .neptuneNav {
+    height: 30px;
+    width: 30px;
+    background-color: #2d68f0;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0% 5% 0% 0;
+
+  }
+ 
+
+
+}
