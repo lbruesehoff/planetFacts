@@ -413,7 +413,7 @@ and (max-device-width : 480px)   {
   border-bottom: 3px solid #419ebb;
 }
 
-.topnav .mercuryMobile.active {
+.topnav .mercuryMobile.focus {
   color: white;
   border-bottom: 3px solid #419ebb;
   outline: 0;
