@@ -415,9 +415,10 @@ and (max-device-width : 480px)   {
   border-bottom: 3px solid #6f2ed6;
 }
 
-.topnav .earthMobile.focus {
+.topnav .earthMobile.active {
   color: white;
   border-bottom: 3px solid #6f2ed6;
+  outline: none;
 }
 
 .topnav .venusMobile:hover {
