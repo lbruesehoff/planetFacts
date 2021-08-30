@@ -423,71 +423,85 @@ and (max-device-width : 480px)   {
 .topnav .earthMobile:hover {
   color: white;
   border-bottom: 3px solid #6f2ed6;
+  outline:0;
 }
 
-.topnav .earthMobile.active {
+.topnav .earthMobile.focus {
   color: white;
   border-bottom: 3px solid #6f2ed6;
+  outline:0;
 }
 
 .topnav .venusMobile:hover {
   color: white;
   border-bottom: 3px solid #eda249;
+  outline:0;
 }
 
-.topnav .venusMobile.active {
+.topnav .venusMobile.focus {
   color: white;
   border-bottom: 3px solid #eda249;
+  outline:0;
 }
 
 .topnav .marsMobile:hover {
   color: white;
   border-bottom: 3px solid #d14c32;
+  outline:0;
 }
 
-.topnav .marsMobile.active {
+.topnav .marsMobile.focus {
   color: white;
   border-bottom: 3px solid #d14c32;
+  outline:0;
 }
 
 .topnav .jupiterMobile:hover {
   color: white;
   border-bottom: 3px solid #d83a34;
+  outline:0;
 }
 
-.topnav .jupiterMobile.active {
+.topnav .jupiterMobile.focus {
   color: white;
   border-bottom: 3px solid #d83a34;
+  outline:0;
 }
 
 .topnav .saturnMobile:hover {
   color: white;
   border-bottom: 3px solid #cd5120;
+  outline:0;
 }
 
-.topnav .saturnMobile.active {
+.topnav .saturnMobile.focus {
   color: white;
   border-bottom: 3px solid #cd5120;
+  outline:0;
 }
 
 .topnav .uranusMobile:hover {
   color: white;
   border-bottom: 3px solid #1ec2a4;
+  outline:0;
 }
 
-.topnav .uranusMobile.active {
+.topnav .uranusMobile.focus {
   color: white;
   border-bottom: 3px solid #1ec2a4;
+  outline:0;
 }
 
 .topnav .neptuneMobile:hover {
   color: white;
   border-bottom: 3px solid #2d68f0;
+  outline:0;
 }
 
-.topnav .neptuneMobile.active {
+.topnav .neptuneMobile.focus {
   color: white;
   border-bottom: 3px solid #2d68f0;
+  outline:0;
 }
 
 
