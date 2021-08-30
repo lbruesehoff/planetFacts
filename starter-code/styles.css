@@ -411,6 +411,7 @@ and (max-device-width : 480px)   {
 .topnav .mercuryMobile:hover {
   color: white;
   border-bottom: 3px solid #419ebb;
+  outline:0;
 }
 
 .topnav .mercuryMobile.focus {
