@@ -398,6 +398,8 @@ and (max-device-width : 480px)   {
   font-size: 12px;
   text-transform: uppercase;
   border-bottom: 1px solid transparent ;
+  -webkit-tap-highlight-color: transparent;
+
 }
 
 .topnav .mercuryMobile:hover {
@@ -413,13 +415,11 @@ and (max-device-width : 480px)   {
 .topnav .earthMobile:hover {
   color: white;
   border-bottom: 3px solid #6f2ed6;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .topnav .earthMobile.active {
   color: white;
   border-bottom: 3px solid #6f2ed6;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .topnav .venusMobile:hover {
