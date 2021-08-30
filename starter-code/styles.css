@@ -413,12 +413,13 @@ and (max-device-width : 480px)   {
 .topnav .earthMobile:hover {
   color: white;
   border-bottom: 3px solid #6f2ed6;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .topnav .earthMobile.active {
   color: white;
   border-bottom: 3px solid #6f2ed6;
-  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .topnav .venusMobile:hover {
