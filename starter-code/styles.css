@@ -111,6 +111,7 @@ body{
 .overview:focus{
   background-color: #419ebb;
   border-style: none;
+  outline: 0;
 }
 
 .venusOverview{
@@ -131,6 +132,7 @@ body{
 .venusOverview:focus{
   background-color: #eda249;
   border-style: none;
+  outline: 0;
 }
 .earthOverview{
   border-style: solid;
@@ -150,6 +152,7 @@ body{
 .earthOverview:focus{
   background-color: #6f2ed6;
   border-style: none;
+  outline: 0;
 }
 
 
@@ -171,6 +174,7 @@ body{
 .marsOverview:focus{
   background-color: #d14c32;
   border-style: none;
+  outline: 0;
 }
 
 .jupiterOverview{
@@ -191,6 +195,7 @@ body{
 .jupiterOverview:focus{
   background-color: #d83a34;
   border-style: none;
+  outline: 0;
 }
 
 
@@ -212,6 +217,7 @@ body{
 .saturnOverview:focus{
   background-color: #cd5120;
   border-style: none;
+  outline: 0;
 }
 
 
@@ -233,6 +239,7 @@ body{
 .uranusOverview:focus{
   background-color: #1ec2a4;
   border-style: none;
+  outline: 0;
 }
 
 .neptuneOverview{
@@ -253,6 +260,7 @@ body{
 .neptuneOverview:focus{
   background-color: #2d68f0;
   border-style: none;
+  outline: 0;
 }
 
 
@@ -398,8 +406,6 @@ and (max-device-width : 480px)   {
   font-size: 12px;
   text-transform: uppercase;
   border-bottom: 1px solid transparent ;
-  -webkit-tap-highlight-color: transparent;
-
 }
 
 .topnav .mercuryMobile:hover {
@@ -410,6 +416,7 @@ and (max-device-width : 480px)   {
 .topnav .mercuryMobile.active {
   color: white;
   border-bottom: 3px solid #419ebb;
+  outline: 0;
 }
 
 .topnav .earthMobile:hover {
